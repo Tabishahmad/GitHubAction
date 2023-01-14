@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
         val a = 4+5
         val b = a*2
         val c = 2
+        val d = c+a
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
