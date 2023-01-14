@@ -1,4 +1,4 @@
-name: Android CI & CD to Firebase
+name: Android Pull Request & Master CI
 
 on:
   pull_request:
@@ -37,8 +37,8 @@ jobs:
     - name: upload artifact to Firebase App Distribution
       uses: wzieba/Firebase-Distribution-Github-Action@v1.2.2
       with:
-        appId: '1:635033027514:android:3d21fe8001676a03331383'
-        token: '1//0geP-BHCIEr2VCgYIARAAGBASNwF-L9IrhyokbE56u-3Vv5M1pHVkeo_F3I27guC2L_RCwJdGoHawXn8bDdjnlPXtUp6GI-zf7u4'
+        appId: '1:1045791072404:android:378ddc19bdf93a65f91481'
+        token: '1//0gHTCsR9ssFvcCgYIARAAGBASNwF-L9Ir0e0_ETRWJkcbB29pvsDbVh2Kbr_ldl_dbKWesvwBV_xs36irVO42PAFNdTkrmmJ9hQ4'
         groups: testers
         file: app/build/outputs/apk/debug/app-debug.apk
 
