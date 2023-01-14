@@ -35,6 +35,10 @@ class MainActivity : AppCompatActivity() {
                 .setAnchorView(R.id.fab)
                 .setAction("Action", null).show()
         }
+
+    }
+    private fun createFun(){
+        val a = 4+5
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
